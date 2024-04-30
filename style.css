@@ -91,6 +91,17 @@ main {
   font-weight: 800;
 }
 
+/* || ACTIVE STATES */
+.blog-card:hover,
+.blog-card:focus {
+  box-shadow: 0.75rem 0.75rem black;
+}
+
+.blog-card:hover h2,
+.blog-card:focus h2 {
+  color: var(--yellow);
+}
+
 /* || ATTRIBUTION */
 .attribution {
   margin-top: 1rem;
